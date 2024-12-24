@@ -15,7 +15,7 @@ function Delete_student() {
   //handle delete
   const handleDelete = async (studentid) => {
     try {
-      await axios.delete("http://localhost:3000/student1/" + studentid);
+      await axios.delete("http://localhost:3000/Delete_student/" + studentid);
       window.location.reload();
       alert("Delete");
     } catch (err) {
