@@ -5,7 +5,7 @@ function Navbar() {
         <nav className="navbar navbar-expand-sm bg-light text-dark fixed-top shadow p-3 mb-5 bg-body-tertiary rounded">
           <div className="container-fluid fw-bold">
             <a className="navbar-brand" href="#">
-              Bharathi Tuition Center
+              Tuition Center
             </a>
 
             <ul className="nav justify-content-end fst-italic">

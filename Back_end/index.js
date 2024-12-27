@@ -16,7 +16,7 @@ const db = mysql.createConnection({
 })
 
 //To get
-app.get('/', (req, res) => {      
+app.get('/', (_req, res) => {      
         const sql = "SELECT * FROM student1";
         db.query(sql,(err,data) => {
             if(err) throw res.json("Error");
@@ -96,7 +96,7 @@ app.delete('/Delete_student/:studentid',(req,res) => {
 //     });
 // });
 
-app.get('/', (req, res) => {
+app.get('/6th', (req, res) => {
     const sql = "SELECT * FROM student1 WHERE standard = ?";
     
     db.query(sql, ['6th'], (err, data) => {
