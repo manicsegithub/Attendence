@@ -34,7 +34,7 @@ function Attendence_Standard() {
             <div className="card-body">
               <h5 className="card-title">Hello Guys</h5>
               {/* <p className="card-text">About the Student</p> */}
-              <Link to="/Take_Attendence" className="btn btn-primary">
+              <Link to="/7th" className="btn btn-primary">
                 7
               </Link>
             </div>
@@ -46,7 +46,7 @@ function Attendence_Standard() {
             <div className="card-body">
               <h5 className="card-title">Hello Guys</h5>
               {/* <p className="card-text">Have a Nice Journey</p> */}
-              <Link to="/Take_Attendence" className="btn btn-primary">
+              <Link to="/8th" className="btn btn-primary">
                 8
               </Link>
             </div>
@@ -58,7 +58,7 @@ function Attendence_Standard() {
             <div className="card-body">
               <h5 className="card-title">Hello Guys</h5>
               {/* <p className="card-text">About the Student</p> */}
-              <Link to="/Take_Attendence" className="btn btn-primary">
+              <Link to="/9th" className="btn btn-primary">
                 9
               </Link>
             </div>
@@ -70,7 +70,7 @@ function Attendence_Standard() {
             <div className="card-body">
               <h5 className="card-title">Hello Guys</h5>
               {/* <p className="card-text">About the Student</p> */}
-              <Link to="/Take_Attendence" className="btn btn-primary">
+              <Link to="/10th" className="btn btn-primary">
                 10
               </Link>
             </div>
@@ -82,7 +82,7 @@ function Attendence_Standard() {
             <div className="card-body">
               <h5 className="card-title">Hello Guys</h5>
               {/* <p className="card-text">About the Student</p> */}
-              <Link to="/Take_Attendence" className="btn btn-primary">
+              <Link to="/11th" className="btn btn-primary">
                 11
               </Link>
             </div>
@@ -94,7 +94,7 @@ function Attendence_Standard() {
             <div className="card-body">
               <h5 className="card-title">Hello Guys</h5>
               {/* <p className="card-text">About the Student</p> */}
-              <Link to="/Take_Attendence" className="btn btn-primary">
+              <Link to="/12th" className="btn btn-primary">
                 12
               </Link>
             </div>

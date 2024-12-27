@@ -66,40 +66,72 @@ app.delete('/Delete_student/:studentid',(req,res) => {
 })
 
 //filtering the student
-// app.get("/6th/:studentid", (req, res) => {
-//     const studentid = req.params.id;
-//     const query = "SELECT * FROM student1 WHERE standard = 6";
-//     db.query(query, [studentid], (err, results) => {
-//       if (err) throw err;
-//       res.json(results); // Send the specific student's data
-//     });
-//   });
 
-// Backend route to fetch students of 6th standard
-// app.get("/6th", (req, res) => {
-//     db.query("SELECT * FROM student1 WHERE standard = 6", (err, results) => {
-//       if (err) throw err;
-//       res.json(results); // Return only 6th standard students
-//     });
-//   });
-
-// Fetch only students who are in the 6th standard
-// app.get('/', (req, res) => {      
-//     const sql = "SELECT * FROM student1 WHERE standard = '6th'";  // Filter for 6th standard students
-   
-//     db.query(sql, (err, data) => {
-//         if (err) {
-//             console.log(err);
-//             return res.status(500).json("Error occurred while fetching data");
-//         }
-//         return res.json(data);  // Return only 6th standard students
-//     });
-// });
-
-app.get('/6th', (req, res) => {
+//6th
+app.get('/sixth', (req, res) => {
     const sql = "SELECT * FROM student1 WHERE standard = ?";
     
-    db.query(sql, ['6th'], (err, data) => {
+    db.query(sql, [6], (err, data) => {
+      if (err) return res.json("Error fetching students");
+      return res.json(data);
+    });
+  });
+
+//7th
+app.get('/seventh', (req, res) => {
+    const sql = "SELECT * FROM student1 WHERE standard = ?";
+    
+    db.query(sql, [7], (err, data) => {
+      if (err) return res.json("Error fetching students");
+      return res.json(data);
+    });
+  });
+
+//8th
+app.get('/eighth', (req, res) => {
+    const sql = "SELECT * FROM student1 WHERE standard = ?";
+    
+    db.query(sql, [8], (err, data) => {
+      if (err) return res.json("Error fetching students");
+      return res.json(data);
+    });
+  });
+
+//9th
+app.get('/nineth', (req, res) => {
+    const sql = "SELECT * FROM student1 WHERE standard = ?";
+    
+    db.query(sql, [9], (err, data) => {
+      if (err) return res.json("Error fetching students");
+      return res.json(data);
+    });
+  });
+
+//10th
+app.get('/tenth', (req, res) => {
+    const sql = "SELECT * FROM student1 WHERE standard = ?";
+    
+    db.query(sql, [10], (err, data) => {
+      if (err) return res.json("Error fetching students");
+      return res.json(data);
+    });
+  });
+
+//11th
+app.get('/eleventh', (req, res) => {
+    const sql = "SELECT * FROM student1 WHERE standard = ?";
+    
+    db.query(sql, [11], (err, data) => {
+      if (err) return res.json("Error fetching students");
+      return res.json(data);
+    });
+  });
+
+//12th
+app.get('/twelveth', (req, res) => {
+    const sql = "SELECT * FROM student1 WHERE standard = ?";
+    
+    db.query(sql, [12], (err, data) => {
       if (err) return res.json("Error fetching students");
       return res.json(data);
     });

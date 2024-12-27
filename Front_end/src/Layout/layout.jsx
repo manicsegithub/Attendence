@@ -9,6 +9,12 @@ import Delete_student from "../Components/Services/Delete_student/Delete_student
 import Take_Attendence from "../Components/Attendance/Take_Attendance/Take_Attendence";
 import Attendence_Standard from "../Components/Attendance/Attendence_Standard/Attendence_Standard";
 import Sixth from "../Components/Attendance/Standard/6th";
+import Seventh from "../Components/Attendance/Standard/7th";
+import Eighth from "../Components/Attendance/Standard/8th";
+import Nineth from "../Components/Attendance/Standard/9th";
+import Tenth from "../Components/Attendance/Standard/10th";
+import Eleventh from "../Components/Attendance/Standard/11th";
+import Twelveth from "../Components/Attendance/Standard/12th";
 
 function Layout() {
   return (
@@ -27,6 +33,12 @@ function Layout() {
         <Route path="/Take_Attendence" element={<Take_Attendence />} />
         <Route path="/Attendence_Standard" element={<Attendence_Standard />} />
         <Route path="/6th" element={<Sixth />} />
+        <Route path="/7th" element={<Seventh />} />
+        <Route path="/8th" element={<Eighth />} />
+        <Route path="/9th" element={<Nineth/>} />
+        <Route path="/10th" element={<Tenth />} />
+        <Route path="/11th" element={<Eleventh />} />
+        <Route path="/12th" element={<Twelveth />} />
       </Routes>
     </>
   );

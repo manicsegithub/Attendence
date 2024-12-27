@@ -210,7 +210,7 @@ function Sixth() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/6th") // Change to /6th endpoint
+      .get("http://localhost:3000/sixth") // Change to /6th endpoint
       .then((res) => {
         setStudent(res.data);
         setLoading(false);
