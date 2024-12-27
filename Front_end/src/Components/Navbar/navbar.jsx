@@ -19,14 +19,19 @@ function Navbar() {
                   Services
                 </a>
               </li>
+
               <li className="nav-item">
-                <a className="nav-link " href="#">
-                  View Attendance
+                <a
+                  className="nav-link"
+                  href="/Attendence_Standard"
+                  aria-disabled=""
+                >
+                  Take Attendence
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-disabled="true">
-                  Take Attendance
+                <a className="nav-link " href="#">
+                  View Attendence
                 </a>
               </li>
             </ul>

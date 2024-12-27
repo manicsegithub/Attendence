@@ -15,12 +15,12 @@ function Card() {
         }}
       >
         <div className="card-body">
-          <h5 className="card-title">Attendance</h5>
+          <h5 className="card-title">Attendence</h5>
           <p className="card-text">
             Enter the roll number of students and keep a record of students
             present in the school today.
           </p>
-          <a href="#" className="btn btn-primary">
+          <a href="/Attendence_Standard" className="btn btn-primary">
             Countinue
           </a>
         </div>
