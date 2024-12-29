@@ -222,16 +222,16 @@ function Sixth() {
       });
   }, []);
 
-  const handleDelete = async (studentid) => {
-    try {
-      await axios.delete(`http://localhost:3000/Delete_student/${studentid}`);
-      setStudent(student1.filter((student) => student.studentid !== studentid));
-      alert("Student deleted");
-    } catch (err) {
-      console.log(err);
-      alert("Error deleting student");
-    }
-  };
+  // const handleDelete = async (studentid) => {
+  //   try {
+  //     await axios.delete(`http://localhost:3000/Delete_student/${studentid}`);
+  //     setStudent(student1.filter((student) => student.studentid !== studentid));
+  //     alert("Student deleted");
+  //   } catch (err) {
+  //     console.log(err);
+  //     alert("Error deleting student");
+  //   }
+  // };
 
   if (loading) {
     return <div>Loading data...</div>;
@@ -275,7 +275,9 @@ function Sixth() {
                 <td>
                   <button
                     className="btn btn-danger ms-2"
-                    onClick={() => handleDelete(data.studentid)}
+                    onClick={() =>
+                      alert(`Student ${data.name} is marked absent`)
+                    }
                   >
                     Absent
                   </button>
